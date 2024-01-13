@@ -1,0 +1,206 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EntidadesAplicacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EntidadesAplicacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntidadesAplicacion.dll": {}
+        }
+      },
+      "EntidadesBD/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EntidadesBD.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntidadesBD.dll": {}
+        }
+      },
+      "TC.PERSISTENCIA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "EntidadesBD": "1.0.0",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "compile": {
+          "bin/placeholder/TC.PERSISTENCIA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TC.PERSISTENCIA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntidadesAplicacion/1.0.0": {
+      "type": "project",
+      "path": "../EntidadesAplicacion/EntidadesAplicacion.csproj",
+      "msbuildProject": "../EntidadesAplicacion/EntidadesAplicacion.csproj"
+    },
+    "EntidadesBD/1.0.0": {
+      "type": "project",
+      "path": "../EntidadesBD/EntidadesBD.csproj",
+      "msbuildProject": "../EntidadesBD/EntidadesBD.csproj"
+    },
+    "TC.PERSISTENCIA/1.0.0": {
+      "type": "project",
+      "path": "../TC.PERSISTENCIA/TC.PERSISTENCIA.csproj",
+      "msbuildProject": "../TC.PERSISTENCIA/TC.PERSISTENCIA.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "EntidadesAplicacion >= 1.0.0",
+      "EntidadesBD >= 1.0.0",
+      "TC.PERSISTENCIA >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anthony Espinoza\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\domain.aplicacion\\domain.aplicacion.csproj",
+      "projectName": "domain.aplicacion",
+      "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\domain.aplicacion\\domain.aplicacion.csproj",
+      "packagesPath": "C:\\Users\\Anthony Espinoza\\.nuget\\packages\\",
+      "outputPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\domain.aplicacion\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Anthony Espinoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\EntidadesAplicacion\\EntidadesAplicacion.csproj": {
+              "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\EntidadesAplicacion\\EntidadesAplicacion.csproj"
+            },
+            "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\EntidadesBD\\EntidadesBD.csproj": {
+              "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\EntidadesBD\\EntidadesBD.csproj"
+            },
+            "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\TC.PERSISTENCIA\\TC.PERSISTENCIA.csproj": {
+              "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\TC.PERSISTENCIA\\TC.PERSISTENCIA.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete System.Data.SqlClient. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Dapper. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Dapper",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "No se encuentra el paquete Newtonsoft.Json con la versión (>= 13.0.1)\r\n  - Versiones encontradas en Microsoft Visual Studio Offline Packages: 1 [ versión más cercana: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.WindowsDesktop.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

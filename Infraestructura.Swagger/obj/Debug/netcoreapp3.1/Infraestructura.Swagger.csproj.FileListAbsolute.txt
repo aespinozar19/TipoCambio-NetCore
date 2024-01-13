@@ -1,0 +1,12 @@
+C:\BCP\SlnBCP\Infraestructura.Swagger\bin\Debug\netcoreapp3.1\Infraestructura.Swagger.deps.json
+C:\BCP\SlnBCP\Infraestructura.Swagger\bin\Debug\netcoreapp3.1\Infraestructura.Swagger.dll
+C:\BCP\SlnBCP\Infraestructura.Swagger\bin\Debug\netcoreapp3.1\Infraestructura.Swagger.pdb
+C:\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.csproj.AssemblyReference.cache
+C:\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.AssemblyInfoInputs.cache
+C:\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.AssemblyInfo.cs
+C:\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.csproj.CoreCompileInputs.cache
+C:\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.dll
+C:\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.pdb
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.dll
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\Infraestructura.Swagger\obj\Debug\netcoreapp3.1\Infraestructura.Swagger.pdb

@@ -1,0 +1,19 @@
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\domain.aplicacion.deps.json
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\domain.aplicacion.dll
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\domain.aplicacion.pdb
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\EntidadesAplicacion.dll
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\EntidadesBD.dll
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\TC.PERSISTENCIA.dll
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\EntidadesAplicacion.pdb
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\EntidadesBD.pdb
+C:\BCP\SlnBCP\domain.aplicacion\bin\Debug\netcoreapp3.1\TC.PERSISTENCIA.pdb
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.csproj.AssemblyReference.cache
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.AssemblyInfoInputs.cache
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.AssemblyInfo.cs
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.csproj.CoreCompileInputs.cache
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.csproj.CopyComplete
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.dll
+C:\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.pdb
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.dll
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\domain.aplicacion\obj\Debug\netcoreapp3.1\domain.aplicacion.pdb

@@ -1,0 +1,12 @@
+C:\BCP\SlnBCP\EntidadesBD\bin\Debug\netcoreapp3.1\EntidadesBD.deps.json
+C:\BCP\SlnBCP\EntidadesBD\bin\Debug\netcoreapp3.1\EntidadesBD.dll
+C:\BCP\SlnBCP\EntidadesBD\bin\Debug\netcoreapp3.1\EntidadesBD.pdb
+C:\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.csproj.AssemblyReference.cache
+C:\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.GeneratedMSBuildEditorConfig.editorconfig
+C:\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.AssemblyInfoInputs.cache
+C:\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.AssemblyInfo.cs
+C:\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.csproj.CoreCompileInputs.cache
+C:\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.dll
+C:\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.pdb
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.dll
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\EntidadesBD\obj\Debug\netcoreapp3.1\EntidadesBD.pdb

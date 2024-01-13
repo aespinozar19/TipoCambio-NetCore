@@ -1,0 +1,346 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "domain.aplicacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EntidadesAplicacion": "1.0.0",
+          "EntidadesBD": "1.0.0",
+          "TC.PERSISTENCIA": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/domain.aplicacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/domain.aplicacion.dll": {}
+        }
+      },
+      "EntidadesAplicacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/EntidadesAplicacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntidadesAplicacion.dll": {}
+        }
+      },
+      "EntidadesBD/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EntidadesBD.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntidadesBD.dll": {}
+        }
+      },
+      "Infraestructura.CORS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cors": "2.2.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infraestructura.CORS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infraestructura.CORS.dll": {}
+        }
+      },
+      "Infraestructura.Swagger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Infraestructura.Swagger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infraestructura.Swagger.dll": {}
+        }
+      },
+      "TC.PERSISTENCIA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "EntidadesBD": "1.0.0",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "compile": {
+          "bin/placeholder/TC.PERSISTENCIA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TC.PERSISTENCIA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "domain.aplicacion/1.0.0": {
+      "type": "project",
+      "path": "../domain.aplicacion/domain.aplicacion.csproj",
+      "msbuildProject": "../domain.aplicacion/domain.aplicacion.csproj"
+    },
+    "EntidadesAplicacion/1.0.0": {
+      "type": "project",
+      "path": "../EntidadesAplicacion/EntidadesAplicacion.csproj",
+      "msbuildProject": "../EntidadesAplicacion/EntidadesAplicacion.csproj"
+    },
+    "EntidadesBD/1.0.0": {
+      "type": "project",
+      "path": "../EntidadesBD/EntidadesBD.csproj",
+      "msbuildProject": "../EntidadesBD/EntidadesBD.csproj"
+    },
+    "Infraestructura.CORS/1.0.0": {
+      "type": "project",
+      "path": "../Infraestructura.CORS/Infraestructura.CORS.csproj",
+      "msbuildProject": "../Infraestructura.CORS/Infraestructura.CORS.csproj"
+    },
+    "Infraestructura.Swagger/1.0.0": {
+      "type": "project",
+      "path": "../Infraestructura.Swagger/Infraestructura.Swagger.csproj",
+      "msbuildProject": "../Infraestructura.Swagger/Infraestructura.Swagger.csproj"
+    },
+    "TC.PERSISTENCIA/1.0.0": {
+      "type": "project",
+      "path": "../TC.PERSISTENCIA/TC.PERSISTENCIA.csproj",
+      "msbuildProject": "../TC.PERSISTENCIA/TC.PERSISTENCIA.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "EntidadesAplicacion >= 1.0.0",
+      "Infraestructura.CORS >= 1.0.0",
+      "Infraestructura.Swagger >= 1.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.5",
+      "domain.aplicacion >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anthony Espinoza\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\apitipocambio\\apitipocambio.csproj",
+      "projectName": "apitipocambio",
+      "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\apitipocambio\\apitipocambio.csproj",
+      "packagesPath": "C:\\Users\\Anthony Espinoza\\.nuget\\packages\\",
+      "outputPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\apitipocambio\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Anthony Espinoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\domain.aplicacion\\domain.aplicacion.csproj": {
+              "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\domain.aplicacion\\domain.aplicacion.csproj"
+            },
+            "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\EntidadesAplicacion\\EntidadesAplicacion.csproj": {
+              "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\EntidadesAplicacion\\EntidadesAplicacion.csproj"
+            },
+            "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\Infraestructura.CORS\\Infraestructura.CORS.csproj": {
+              "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\Infraestructura.CORS\\Infraestructura.CORS.csproj"
+            },
+            "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\Infraestructura.Swagger\\Infraestructura.Swagger.csproj": {
+              "projectPath": "C:\\Anthony Espinoza\\NetCore\\BCP\\SlnBCP\\Infraestructura.Swagger\\Infraestructura.Swagger.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[3.1.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.Authentication.JwtBearer. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.Http.Abstractions. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Http.Abstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Extensions.DependencyInjection.Abstractions. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.Cors. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Cors",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Extensions.Configuration.Abstractions. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Configuration.Abstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Swashbuckle.AspNetCore. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete System.Data.SqlClient. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Dapper. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Dapper",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "No se encuentra el paquete Newtonsoft.Json con la versión (>= 13.0.1)\r\n  - Versiones encontradas en Microsoft Visual Studio Offline Packages: 1 [ versión más cercana: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.WindowsDesktop.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.AspNetCore.App.Ref. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.NETCore.App.Host.win-x64. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

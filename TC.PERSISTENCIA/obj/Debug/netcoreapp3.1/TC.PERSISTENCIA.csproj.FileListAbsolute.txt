@@ -1,0 +1,15 @@
+C:\BCP\SlnBCP\TC.PERSISTENCIA\bin\Debug\netcoreapp3.1\TC.PERSISTENCIA.deps.json
+C:\BCP\SlnBCP\TC.PERSISTENCIA\bin\Debug\netcoreapp3.1\TC.PERSISTENCIA.dll
+C:\BCP\SlnBCP\TC.PERSISTENCIA\bin\Debug\netcoreapp3.1\TC.PERSISTENCIA.pdb
+C:\BCP\SlnBCP\TC.PERSISTENCIA\bin\Debug\netcoreapp3.1\EntidadesBD.dll
+C:\BCP\SlnBCP\TC.PERSISTENCIA\bin\Debug\netcoreapp3.1\EntidadesBD.pdb
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.csproj.AssemblyReference.cache
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.AssemblyInfoInputs.cache
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.AssemblyInfo.cs
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.csproj.CoreCompileInputs.cache
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.csproj.CopyComplete
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.dll
+C:\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.pdb
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.dll
+C:\Anthony Espinoza\NetCore\BCP\SlnBCP\TC.PERSISTENCIA\obj\Debug\netcoreapp3.1\TC.PERSISTENCIA.pdb
